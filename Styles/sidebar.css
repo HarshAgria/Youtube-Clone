@@ -1,0 +1,68 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    top: 55px;
+    width: 76px;
+
+}
+.home-button{
+    height: 35px;
+    width: 35px;
+    border: none;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.home-button:hover{
+    background-color: grey;
+}
+.explore-button{
+    height: 35px;
+    width: 35px;
+    border: none;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 25px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.subscription-button{
+    height: 35px;
+    width: 35px;
+    border: none;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 25px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.originals-button{
+    height: 35px;
+    width: 35px;
+    border: none;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 30px; 
+    cursor: pointer;  
+}
+.Yt-music-button{
+    height: 35px;
+    width: 35px;
+    border: none;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 30px; 
+    cursor: pointer; 
+}
+.library-button{
+    height: 35px;
+    width: 35px;
+    border: none;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 30px; 
+    cursor: pointer;
+}
