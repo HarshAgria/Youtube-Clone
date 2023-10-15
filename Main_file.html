@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>youtube.com</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+    
+    </head>
+    <body style="height: 3000px;padding-top: 80px;">
+        <div class="header">
+            <div class="left-section">
+                <img class="hamburger-menu" src="https://supersimple.dev/public/img/exercises/youtube/icons/hamburger-menu.svg">
+                <img class="yt-logo" src="https://supersimple.dev/public/img/exercises/youtube/icons/youtube-logo.svg">
+            </div>
+            <div class="middle-section">
+                <input class="text-box" type="text" placeholder="Search">
+                <button class="search-button" title="Search">
+                   <img  class="search-icon" src="https://supersimple.dev/public/img/exercises/youtube/icons/search.svg">
+                   <div class="tooltip">Search</div> 
+                   <!-- <img src="https://supersimple.dev/public/img/exercises/youtube/icons/voice-search-icon.svg"> -->
+                </button>
+                <button class="voice-search" title="Search with your voice">
+                    <img  class="voice-search-icon" src="https://supersimple.dev/public/img/exercises/youtube/icons/voice-search-icon.svg">
+                </button>
+            </div>
+            <div class="right-section">
+                <button class="create-button" title="Create">
+                    <img class="create-button-icon" src="https://supersimple.dev/public/img/exercises/youtube/icons/upload.svg">
+                </button>
+
+                <button class="ytapps" title="YouTube apps">
+                    <img class="ytapps-icon" src="https://supersimple.dev/public/img/exercises/youtube/icons/youtube-apps.svg">
+                </button>
+
+                <button class="notification" title="Notifications">
+                    <img class="notification-icon" src="https://supersimple.dev/public/img/exercises/youtube/icons/notifications.svg">
+                </button>
+
+                <button class="profile">
+                    <img class="profile-icon" src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/my-channel.jpeg">
+                </button>
+            </div>
+            
+        </div>
+
+        <div class="sidebar">
+            <button class="home-button">
+                <img src="https://supersimple.dev/public/img/exercises/youtube/icons/home.svg">
+                <p style="
+                margin: 0;
+                /* align-items: center; */
+                font-size: 10px;
+                margin-left: -2px;
+                ">Home</p>
+            </button>
+            
+            <button class="explore-button">
+                <img src="https://supersimple.dev/public/img/exercises/youtube/icons/explore.svg">
+                <p style="
+                margin: 0;
+                align-items: center;
+                font-size: 10px;
+                margin-left: -3px;
+                ">Explore</p>
+            </button>
+            
+            <button class="subscription-button">
+                <img  src="https://supersimple.dev/public/img/exercises/youtube/icons/subscriptions.svg">
+                <p style="
+                margin: 0;
+                align-items: center;
+                font-size: 10px;
+                margin-left: -15px;
+                ">Subscriptions</p>
+            </button>
+            
+            <button class="originals-button">
+                <img src="https://supersimple.dev/public/img/exercises/youtube/icons/originals.svg">
+                <p style="
+                margin: 0;
+                align-items: center;
+                font-size: 10px;
+                margin-left: -7px;
+                ">Originals</p>    
+            </button>
+            
+            <button class="Yt-music-button">
+                <img src="https://supersimple.dev/public/img/exercises/youtube/icons/youtube-music.svg">
+                <p style="
+                margin: 0;
+                align-items: center;
+                font-size: 10px;
+                margin-left: -17px;
+                text-align: center;
+                ">YouTube&nbsp;Music</p>
+            </button>
+            
+            <button class="library-button">
+                <img src="https://supersimple.dev/public/img/exercises/youtube/icons/library.svg">
+                <p style="
+                margin: 0;
+                align-items: center;
+                font-size: 10px;
+                margin-left: -4px;
+                ">Library</p>
+            </button>
+        <!-- 
+            home->https://supersimple.dev/public/img/exercises/youtube/icons/home.svg
+
+Explore->https://supersimple.dev/public/img/exercises/youtube/icons/explore.svg
+
+subscriptions->https://supersimple.dev/public/img/exercises/youtube/icons/subscriptions.svg
+
+originals->https://supersimple.dev/public/img/exercises/youtube/icons/originals.svg
+
+Yt music->https://supersimple.dev/public/img/exercises/youtube/icons/youtube-music.svg
+
+library->https://supersimple.dev/public/img/exercises/youtube/icons/library.svg
+         -->
+        </div>
+        <!-- <input type="checkbox"> -->
+        
+        <div class="full-grid">
+        <div class="video-preview">
+            <!-- For vertical layout -->
+            <div class="thumbnail-row">
+                <img class="img1" src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-1.webp
+        ">     
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-picture" src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-1.jpeg">
+                </div>
+                <div class="channel-info">
+                    <p class="video-title">
+                        Talking Tech and AI with Google CEO Sundar Pichai!
+                    </p>
+                    <p class="video-author">
+                        Marques Brownlee
+                    </p>
+                    <p class="video-stats">
+                        3.4M views · 6 months ago
+                    </p>    
+                </div>  
+            </div>
+        </div><!--is a box-->
+        
+        <div class="video-preview">
+            <!-- For vertical layout -->
+            <div class="thumbnail-row">
+                <img class="img1" src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-2.webp
+        ">     
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-picture" src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-2.jpeg">
+                </div><div class="channel-info">
+                    <p class="video-title">
+                        Try Not To Laugh Challenge #9
+                    </p>
+                    <p class="video-author">
+                        Markiplier
+                    </p>
+                    <p class="video-stats">
+                        19M views · 4 years ago
+                    </p>    
+                </div>  
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <!-- For vertical layout -->
+            <div class="thumbnail-row">
+                <img class="img1" src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-3.webp
+        ">     
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-picture" src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-3.jpeg">
+                </div><div class="channel-info">
+                    <p class="video-title">
+                        Crazy Tik Toks Taken Moments Before DISASTER
+                    </p>
+                    <p class="video-author">
+                        SSSniperWolf
+                    </p>
+                    <p class="video-stats">
+                        12M views · 1 year ago
+                    </p>    
+                </div>  
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <!-- For vertical layout -->
+            <div class="thumbnail-row">
+                <img class="img1" src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-1.webp
+        ">     
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-picture" src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-1.jpeg">
+                </div><div class="channel-info">
+                    <p class="video-title">
+                        Talking Tech and AI with Google CEO Sundar Pichai!
+                    </p>
+                    <p class="video-author">
+                        Marques Brownlee
+                    </p>
+                    <p class="video-stats">
+                        3.4M views · 6 months ago
+                    </p>    
+                </div>  
+            </div>
+        </div><!--is a box-->
+
+        <div class="video-preview">
+            <!-- For vertical layout -->
+            <div class="thumbnail-row">
+                <img class="img1" src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-2.webp
+        ">     
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-picture" src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-2.jpeg">
+                </div><div class="channel-info">
+                    <p class="video-title">
+                        Try Not To Laugh Challenge #9
+                    </p>
+                    <p class="video-author">
+                        Markiplier
+                    </p>
+                    <p class="video-stats">
+                        19M views · 4 years ago
+                    </p>    
+                </div>  
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <!-- For vertical layout -->
+            <div class="thumbnail-row">
+                <img class="img1" src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-3.webp
+        ">     
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-picture" src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-3.jpeg">
+                </div><div class="channel-info">
+                    <p class="video-title">
+                        Crazy Tik Toks Taken Moments Before DISASTER
+                    </p>
+                    <p class="video-author">
+                        SSSniperWolf
+                    </p>
+                    <p class="video-stats">
+                        12M views · 1 year ago
+                    </p>    
+                </div>  
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <!-- For vertical layout -->
+            <div class="thumbnail-row">
+                <img class="img1" src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-2.webp
+        ">     
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-picture" src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-2.jpeg">
+                </div><div class="channel-info">
+                    <p class="video-title">
+                        Try Not To Laugh Challenge #9
+                    </p>
+                    <p class="video-author">
+                        Markiplier
+                    </p>
+                    <p class="video-stats">
+                        19M views · 4 years ago
+                    </p>    
+                </div>  
+            </div>
+        </div>
+
+
+        <div class="video-preview">
+            <!-- For vertical layout -->
+            <div class="thumbnail-row">
+                <img class="img1" src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-2.webp
+        ">     
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-picture" src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-2.jpeg">
+                </div><div class="channel-info">
+                    <p class="video-title">
+                        Try Not To Laugh Challenge #9
+                    </p>
+                    <p class="video-author">
+                        Markiplier
+                    </p>
+                    <p class="video-stats">
+                        19M views · 4 years ago
+                    </p>    
+                </div>  
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <!-- For vertical layout -->
+            <div class="thumbnail-row">
+                <img class="img1" src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-2.webp
+        ">     
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-picture" src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-2.jpeg">
+                </div><div class="channel-info">
+                    <p class="video-title">
+                        Try Not To Laugh Challenge #9
+                    </p>
+                    <p class="video-author">
+                        Markiplier
+                    </p>
+                    <p class="video-stats">
+                        19M views · 4 years ago
+                    </p>    
+                </div>  
+            </div>
+        </div>
+
+
+        <div class="video-preview">
+            <!-- For vertical layout -->
+            <div class="thumbnail-row">
+                <img class="img1" src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-2.webp
+        ">     
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-picture" src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-2.jpeg">
+                </div><div class="channel-info">
+                    <p class="video-title">
+                        Try Not To Laugh Challenge #9
+                    </p>
+                    <p class="video-author">
+                        Markiplier
+                    </p>
+                    <p class="video-stats">
+                        19M views · 4 years ago
+                    </p>    
+                </div>  
+            </div>
+        </div>
+
+
+        <div class="video-preview">
+            <!-- For vertical layout -->
+            <div class="thumbnail-row">
+                <img class="img1" src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-2.webp
+        ">     
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-picture" src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-2.jpeg">
+                </div><div class="channel-info">
+                    <p class="video-title">
+                        Try Not To Laugh Challenge #9
+                    </p>
+                    <p class="video-author">
+                        Markiplier
+                    </p>
+                    <p class="video-stats">
+                        19M views · 4 years ago
+                    </p>    
+                </div>  
+            </div>
+        </div>
+
+
+        <div class="video-preview">
+            <!-- For vertical layout -->
+            <div class="thumbnail-row">
+                <img class="img1" src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-2.webp
+        ">     
+            <div class="video-time">19:59</div>
+
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-picture" src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-2.jpeg">
+                </div><div class="channel-info">
+
+                    <div class="video-info">
+                    <p class="video-title">
+                        Try Not To Laugh Challenge #9
+                    </p>
+                    <p class="video-author">
+                        Markiplier
+                    </p>
+                    <p class="video-stats">
+                        19M views · 4 years ago
+                    </p> 
+                    </div>   
+                </div>  
+            </div>
+        </div>
+
+
+        
+        </div>
+    </body>
+</html>
